@@ -18,7 +18,7 @@ def line(katz_deli)
   end
 end
 #add new people into line and declare number in line for new person
-def take_a_number(katz_deli, name)
+def take_a_number
   katz_deli.push(name)
   number_in_line= 1 
   puts "Welcome, #{name}. You are number #{number_in_line} in line."
