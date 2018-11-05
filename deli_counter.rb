@@ -20,7 +20,9 @@ end
 #add new people into line and declare number in line for new person
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
-  puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
+  number_in_line= 1 
+  puts "Welcome, #{name}. You are number #{number_in_line} in line."
+  number_in_line += 1 
 end
 
 #checks to see line (empty or not) then declare who is being currently served
